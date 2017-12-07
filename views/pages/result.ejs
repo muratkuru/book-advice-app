@@ -1,0 +1,34 @@
+<% include ../partials/header %>
+
+<section class="intro bg4">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 data-aos="fade-right" data-aos-duration="1000">SİZİN İÇİN ÖNERDİKLERİMİZ</h2>
+                    <% if(books != undefined) {%>
+                        <% for(var i = 0; i < books.length; i++) { %>
+                            <div class="col-md-4">
+                                <div class="thumbnail" data-aos="flip-left" data-aos-duration="1000">
+                                    <img src="<%= books[i].img %>" alt="<%= books[i].title %>">
+                                    <div class="caption">
+                                        <p>
+                                            <a href="#" class="btn btn-success" role="button">SEPETE EKLE
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        <% } %>
+                    <% } else { %>
+                        <h3 data-aos="flip-left" data-aos-duration="1000">KRİTERLERE UYGUN KİTAP BULUNAMADI</h3>
+                    <% } %>
+                        <a href="/" class="btn btn-info btn-lg">ANA SAYFA'YA GERİ DÖN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<% include ../partials/footer %>

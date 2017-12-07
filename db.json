@@ -1,0 +1,395 @@
+[
+    {
+        "id": "q1",
+        "text": "HANGİ YAŞ ARALIĞINDASINIZ?",
+        "answers": [
+            {
+                "id": "q1a1",
+                "text": "6-12"
+            },
+            {
+                "id": "q1a2",
+                "text": "12-18"
+            },
+            {
+                "id": "q1a3",
+                "text": "> 18"
+            }
+        ]
+    },
+    {
+        "id": "q2",
+        "parentId": "q1",
+        "parentAnswerId": "q1a1",
+        "text": "NE TÜR BİR KİTAP DÜŞÜNÜYORSUNUZ?",
+        "answers": [
+            {
+                "id": "q2a1",
+                "text": "BİLİMSEL - EĞİTİCİ"
+            },
+            {
+                "id": "q2a2",
+                "text": "MASAL - FANTASTİK"
+            },
+            {
+                "id": "q2a3",
+                "text": "KÜLTÜR - SANAT"
+            }
+        ]
+    },
+    {
+        "id": "q3",
+        "parentId": "q2",
+        "parentAnswerId": "q2a1",
+        "text": "BİLİMSEL - EĞİTİCİ KATEGORİSİNDE HANGİ KONU İLGİNİZİ ÇEKİYOR?",
+        "answers": [
+            {
+                "id": "q3a1",
+                "text": "COĞRAFYA",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Coğrafi Keşifler",
+                        "img": "/img/books/eebcfca8-d5a3-413f-a9f1-4af5f1ca39ec.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Okyanuslar",
+                        "img": "/img/books/33bbef3f-6458-43ba-89ae-0ee84ec44930.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Ülkeler ve Kıtalar Atlası",
+                        "img": "/img/books/8900c50a-b2c8-4432-b6f6-485d5f102cfa.jpg"
+                    }
+                ]
+            },
+            {
+                "id": "q3a2",
+                "text": "BULMACA",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Düşün Dikkat Et",
+                        "img": "/img/books/523bdea4-4571-41e2-9938-ab6785a88164.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Eğlenceli Sayılar",
+                        "img": "/img/books/9a83d1ac-d712-44f6-8111-ba7828ea4067.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Şekiller ve Renkler",
+                        "img": "/img/books/17104cc2-116a-48df-8d5e-2b9fb32e85fc.jpg"
+                    }
+                ]
+            },
+            {
+                "id": "q3a3",
+                "text": "HAYVANLAR",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Kara Hayvanları",
+                        "img": "/img/books/4ec42b32-4659-4cd6-8c56-761b3fa22d24.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Su Hayvanları",
+                        "img": "/img/books/264af85d-d09b-4a0f-aa61-9248d40a32f7.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Uçan Hayvanlar",
+                        "img": "/img/books/290dd103-03a6-4174-8963-5185a1b0e09a.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "q4",
+        "parentId": "q2",
+        "parentAnswerId": "q2a2",
+        "text": "MASAL - FANTASTİK KATEGORİSİNDE HANGİ KONU İLGİNİZİ ÇEKİYOR?",
+        "answers": [
+            {
+                "id": "q4a1",
+                "text": "FABL MASALLARI",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Karga ile Tilki",
+                        "img": "/img/books/3496f192-af58-40d2-b0eb-b5e856b6f61b.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Tavşan ile Kaplumbağa",
+                        "img": "/img/books/4270ce6c-64cf-471c-9b8f-75dd19d1ce9b.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Kurbağa ile Korkak Tavşan",
+                        "img": "/img/books/c89d82a9-22d3-4349-89b7-d67925984340.jpg"
+                    }
+                ]
+            },
+            {
+                "id": "q4a2",
+                "text": "UZAY MACERALARI",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Bir Uzaylı Masalı",
+                        "img": "/img/books/3f41b757-dfac-4605-9cc9-fd27add1d6f0.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Bir Uzay Macerası",
+                        "img": "/img/books/361a0ad9-71b3-4109-918d-bfb74a639164.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Uzay Maceraları",
+                        "img": "/img/books/e0fe8742-12d5-410b-a06a-23a40dc98a40.jpg"
+                    }
+                ]
+            },
+            {
+                "id": "q4a3",
+                "text": "TÜRK ÖYKÜLERİ",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Keloğlan Masalları",
+                        "img": "/img/books/4a1fb689-e3cc-47c6-9c2b-33cabb28ad36.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Diyet",
+                        "img": "/img/books/327ed05b-f326-4b5c-960d-ec062888ab46.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Falaka",
+                        "img": "/img/books/cb566d7f-a00b-4da9-b689-19222e38e666.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "q5",
+        "parentId": "q2",
+        "parentAnswerId": "q2a3",
+        "text": "KÜLTÜR - SANAT KATEGORİSİNDE HANGİ KONU İLGİNİZİ ÇEKİYOR?",
+        "answers": [
+            {
+                "id": "q5a1",
+                "text": "TARİH",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Dünya Tarihi",
+                        "img": "/img/books/7d6c77b0-1424-4ac7-8764-6a93250f29be.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Ocağına Düştüm Yeniçeri",
+                        "img": "/img/books/9fb8ed16-d7e8-4072-a280-839159e0f7a9.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Osmanlı Sultanları",
+                        "img": "/img/books/f0b24f70-c895-4d84-82fb-8e1c65af804e.jpg"
+                    }
+                ]
+            },
+            {
+                "id": "q5a2",
+                "text": "ŞİİR",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Reçelli Şiirler",
+                        "img": "/img/books/98dbbad9-acc1-4aa6-beef-4f565f3c1ddb.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Şiir Gemizi",
+                        "img": "/img/books/65496afb-908f-4e13-992b-7f974827e101.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Nar Alfabesi",
+                        "img": "/img/books/d0abec40-0a8e-4ed1-bb73-8b6194192148.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "q6",
+        "parentId": "q1",
+        "parentAnswerId": "q1a2",
+        "text": "NE TÜR BİR KİTAP DÜŞÜNÜYORSUNUZ?",
+        "answers": [
+            {
+                "id": "q6a1",
+                "text": "100 TEMEL ESER",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Beyaz Diş",
+                        "img": "/img/books/b91d84aa-daae-4ceb-b8cd-8a426eb587f0.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Suç ve Ceza",
+                        "img": "/img/books/8c91ff8f-f902-4727-98fe-37f00209cc7f.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Savaş ve Barış",
+                        "img": "/img/books/011b5c4d-925a-4e3d-a4a9-7a1ce1925772.jpg"
+                    }
+                ]
+            },
+            {
+                "id": "q6a2",
+                "text": "ROMAN - ÖYKÜ",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Atatürk'le Kurtuluş Savaşı'nda",
+                        "img": "/img/books/19a71471-4017-43b2-a916-9ae6ef9b4c50.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Don Kişot",
+                        "img": "/img/books/f8ed4d85-2a78-42fc-a4b5-d93aaf2b0470.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Bir Genç Kızın Gizli Defteri",
+                        "img": "/img/books/78c64a4f-d203-47d5-94db-6228767951b3.jpg"
+                    }
+                ]
+            },
+            {
+                "id": "q6a3",
+                "text": "ÇİZGİ ROMAN",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Joker",
+                        "img": "/img/books/b51d9b77-7c8c-4b6e-9cc5-b5be03457dcf.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Yeni Başlangıçlar",
+                        "img": "/img/books/fed3c12a-83fd-4179-b66a-2fe7c2cfb5ca.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Batman",
+                        "img": "/img/books/331f05cf-a41e-4a30-936b-15f9c290adb8.jpg"
+                    }
+                ]
+            },
+            {
+                "id": "q6a4",
+                "text": "ŞİİR",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Safahat",
+                        "img": "/img/books/7e17a9f9-94db-4f08-8804-108729f339ca.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Memleketimden İnsan Manzaraları",
+                        "img": "/img/books/518b0875-3b49-49f1-b4d2-a3db95aafe7a.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Şermin",
+                        "img": "/img/books/c7cadfd3-8c69-48e3-815a-96025868980d.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "q7",
+        "parentId": "q1",
+        "parentAnswerId": "q1a3",
+        "text": "NE TÜR BİR KİTAP DÜŞÜNÜYORSUNUZ?",
+        "answers": [
+            {
+                "id": "q7a1",
+                "text": "KİŞİSEL GELİŞİM",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Şu Hortumlu Dünyada Fil Yalnız Bir Hayvandır",
+                        "img": "/img/books/d41bd690-281e-44a5-8ed1-5be5925a4ef6.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Sana Yeni Bir Dünya Gerek!",
+                        "img": "/img/books/1a9dc9a2-6b69-4f97-9155-0ed147786c21.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Büyüyünce Ne Olacaksın Baba?",
+                        "img": "/img/books/ae3d427b-7fb6-4d5a-9117-db2fcfea5ca0.jpg"
+                    }
+                ]
+            },
+            {
+                "id": "q7a2",
+                "text": "SERİ KİTAPLAR",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Harry Potter",
+                        "img": "/img/books/7ecee24f-76db-4f78-8df2-78c8d07f4484.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Bir Genc Kızın Gizli Defteri",
+                        "img": "/img/books/0034148e-d0ae-4b69-bffd-00d3bfd8d7e9.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "Açlık Oyunları",
+                        "img": "/img/books/33586db0-3079-41aa-a5a1-47defa93f221.jpg"
+                    }
+                ]
+            },
+            {
+                "id": "q7a3",
+                "text": "ÇOK BEĞENİLENLER",
+                "books": [
+                    {
+                        "id": "b1",
+                        "title": "Momo",
+                        "img": "/img/books/f1a30c52-8cb5-4565-8f40-6992e9e6be4a.jpg"
+                    },
+                    {
+                        "id": "b2",
+                        "title": "Bayan Peregrine'in Tuhaf Çocukları",
+                        "img": "/img/books/f42d8876-9277-4e78-9ab8-623c4c47c61b.jpg"
+                    },
+                    {
+                        "id": "b3",
+                        "title": "İlk Aşk - 19 Başarısız Denemeden Sonra",
+                        "img": "/img/books/83ebef41-37b5-4bde-8fcb-ec41ffc95daf.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+]

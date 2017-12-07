@@ -1,0 +1,39 @@
+<% include ../partials/header %>
+<header data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" class="intro header-bg">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1 class="brand-heading">YENİ KİTAPLAR KEŞFETMEYE HAZIR MISIN?</h1>
+                    <p data-aos-easing="ease" data-aos-delay="800" class="intro-text">
+                        <a href="#q1" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<span id="questions">
+    <section id="<%= firstQuestion.id %>" class="intro bg5">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 data-aos="fade-right" data-aos-duration="1000"><%= firstQuestion.text %></h2>
+                        <hr>
+                        <% for(var j = 0; j < firstQuestion.answers.length; j++) { %>
+                            <button value="<%= firstQuestion.answers[j].id %>" name="options" class="btn btn-info btn-lg answer"
+                                    data-aos="flip-left" data-aos-duration="1000">
+                                    <%= firstQuestion.answers[j].text %>
+                            </button>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</span>
+
+<% include ../partials/footer %>
